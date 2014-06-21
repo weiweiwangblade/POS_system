@@ -90,3 +90,8 @@ void Widget::on_pushButton_2_clicked()
     close();
 }
 
+
+void Widget::on_lineEdit_2_editingFinished()
+{
+
+}

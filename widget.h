@@ -27,6 +27,8 @@ private slots:
     void on_pushButton_2_clicked();
 
 
+    void on_lineEdit_2_editingFinished();
+
 private:
     Form workwindow;
 

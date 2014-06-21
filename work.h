@@ -2,6 +2,7 @@
 #define WORK_H
 
 #include "ui_work.h"
+#include "pay.h"
 #include <QStandardItemModel>
 
 namespace Ui {
@@ -28,6 +29,7 @@ private:
     int line_number;
     QStandardItemModel *model;
 
+    Pay paywindow;
     Ui::Form *workwindow;
 };
 

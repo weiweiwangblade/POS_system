@@ -2,6 +2,9 @@
 <ui version="4.0">
  <class>Form</class>
  <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,6 +20,9 @@
   </property>
   <property name="windowTitle">
    <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -35,6 +41,9 @@
      <bold>true</bold>
      <strikeout>false</strikeout>
     </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
    </property>
    <property name="text">
     <string>Sale Information:</string>
@@ -198,7 +207,7 @@
     </rect>
    </property>
    <property name="frame">
-    <bool>true</bool>
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_6">
@@ -312,6 +321,9 @@
    </property>
    <property name="text">
     <string>&amp;Pay</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_3">
@@ -512,9 +524,9 @@
   <widget class="QLabel" name="label_15">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>0</y>
-     <width>251</width>
+     <x>400</x>
+     <y>20</y>
+     <width>211</width>
      <height>41</height>
     </rect>
    </property>
@@ -525,8 +537,11 @@
      <bold>true</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
    <property name="text">
-    <string>Enjoy Your Life</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#00aaff;&quot;&gt;Enjoy Yout Life&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_16">
@@ -597,6 +612,9 @@
      <width>113</width>
      <height>27</height>
     </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
    </property>
    <property name="frame">
     <bool>false</bool>

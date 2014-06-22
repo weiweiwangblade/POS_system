@@ -29,7 +29,7 @@
     <rect>
      <x>20</x>
      <y>60</y>
-     <width>171</width>
+     <width>251</width>
      <height>21</height>
     </rect>
    </property>
@@ -46,7 +46,7 @@
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Sale Information:</string>
+    <string>Sale Informations:</string>
    </property>
   </widget>
   <widget class="QTableView" name="tableView">
@@ -64,7 +64,7 @@
     <rect>
      <x>20</x>
      <y>505</y>
-     <width>181</width>
+     <width>271</width>
      <height>21</height>
     </rect>
    </property>
@@ -78,7 +78,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Input Information:</string>
+    <string>Input Informations:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_11">
@@ -526,7 +526,7 @@
     <rect>
      <x>400</x>
      <y>20</y>
-     <width>211</width>
+     <width>311</width>
      <height>41</height>
     </rect>
    </property>
@@ -541,7 +541,7 @@
     <string notr="true"/>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#00aaff;&quot;&gt;Enjoy Yout Life&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; color:#00aaff;&quot;&gt;Enjoy Your Life&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_16">
@@ -549,7 +549,7 @@
     <rect>
      <x>790</x>
      <y>60</y>
-     <width>91</width>
+     <width>141</width>
      <height>21</height>
     </rect>
    </property>
@@ -563,7 +563,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Function:</string>
+    <string>Functions:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_17">
@@ -571,7 +571,7 @@
     <rect>
      <x>20</x>
      <y>620</y>
-     <width>161</width>
+     <width>231</width>
      <height>21</height>
     </rect>
    </property>
@@ -585,7 +585,7 @@
     </font>
    </property>
    <property name="text">
-    <string>System Information:</string>
+    <string>System Informations:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">

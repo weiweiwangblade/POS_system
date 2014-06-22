@@ -20,3 +20,5 @@ HEADERS  += widget.h \
     pay.h
 
 FORMS    += widget.ui work.ui pay.ui
+
+TRANSLATIONS    += app.tr
